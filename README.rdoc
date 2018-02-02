@@ -5,6 +5,6 @@ This is a replica of the popular Hacker News website built using Zurb Foundation
 {See it live}[https://christophszcz_hacker_news_clone.herokuapp.com/]
 
 1. <tt>$ git clone git@github.com:christophszcz/hacker_news_clone.git</tt>
-2. <tt>$ cd hackernews_clone</tt> 
+2. <tt>$ cd hacker_news_clone</tt> 
 3. <tt>$ bundle</tt> 
 4. Enjoy! :)
