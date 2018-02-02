@@ -1,0 +1,151 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Foundation Override
+
+.row{
+	max-width: 72rem;
+}
+
+// Navbar 
+
+.main-logo{
+	border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+	position: relative;
+	width: 18px;
+	height: 18px;
+	left: 1px;
+	top: -4px;
+}
+
+.title-link{
+	font-size: 12px;
+	color: #000;
+	font-weight: 600;
+	display: inline;
+	position: relative;
+  top: -3px;
+}
+
+.nav-item{
+  display: inline;
+}
+
+.nav-text{
+	color: #000;
+	font-size: 12px;
+	position: relative;
+  top: -3px;
+}
+
+.divide{
+  font-size: 10px;
+  position: relative;
+  top: -4px;
+  color: rgb(18, 18, 18);
+  margin-left: 6px;
+  margin-right: 0px;
+  font-weight: 10000;
+}
+
+.top-bar{
+	margin-top: 7px;
+	background-color: rgb(255, 102, 0);
+	height: 20px;
+}
+
+#navbar-login{
+	margin-right: 5px;
+}
+
+// Content 
+
+.content{
+	background-color: rgb(246, 247, 238);
+	padding-top: 5px;
+	margin-top: -25px;
+}
+
+.article{
+	margin-left: 8px;
+	margin-bottom: -25px;
+}
+
+.article-name{
+	color: #000;
+  text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 8pt;
+}
+
+.number{
+	color: #828282;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+}
+
+.second-line{
+	color: #828282;
+	font-family: Verdana, Geneva, sans-serif;
+  font-size: 9px;
+  margin-left: 26px;
+  margin-top: -3px;
+}
+
+.arrow{
+  width: 8px;
+  height: 8px;
+  margin: 6px 2px 6px;
+}
+
+.second-line-link{
+	color: #828282;
+	text-decoration: none;
+}
+
+#additional-articles{
+	display:none;
+}
+
+// Responsiveness
+
+@media (max-width: 1195px){
+	.row{
+		max-width: 62.5rem;
+	}
+}
+
+@media (max-width: 641px){
+	.top-bar.expanded .title-area{
+		background: rgb(255, 102, 0);
+	}
+	span{
+		color: #000;
+	}
+	.top-bar{
+		margin-top: 0px;
+	  background-color: #ff6600;
+	  height: 34px;
+	}
+	.top-bar .toggle-topbar.menu-icon{
+		margin-top: -21px;
+	}
+	.content{
+		margin-top: 0px;
+	}
+	.top-bar.expanded {
+    background: rgb(255, 102, 0);
+	}
+	.main-logo, .title-link{
+		top: 3px;
+	}
+	.main-logo{
+		border-bottom: 1px solid #fff;
+	}
+	.article-name{
+		font-size: 6pt;
+	}
+}
