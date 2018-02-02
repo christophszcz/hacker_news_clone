@@ -1,4 +1,4 @@
-var url = "http://hacker-news.firebaseio.com/"
+var url = "https://hacker-news.firebaseio.com/"
 var topStories = "v0/topstories.json";
 
 var mainUrl = url + topStories;
