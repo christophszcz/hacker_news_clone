@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails hacker_news_clone: development" uuid="c352e5ff-0d53-4b70-b91e-5cb387c85678">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>christophszcz</user-name>
+    </data-source>
+    <data-source name="Rails hacker_news_clone: test" uuid="175fb1af-2d7b-4d4d-b150-2b5c40e71c54">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>christophszcz</user-name>
+    </data-source>
+  </component>
+</project>
