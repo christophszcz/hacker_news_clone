@@ -17,8 +17,15 @@ function articleRetrieval(startingValue, endingValue){
           var number = j + 1, time = " 2 hours ago";
           xhrTwo.onreadystatechange = function()  {   
             if (xhrTwo.readyState === XMLHttpRequest.DONE) {
-              document.getElementById('article' + j).innerHTML += "<span class='number'>" + number + ".</span><img src='https://news.ycombinator.com/grayarrow2x.gif' class='arrow' alt='Gray Arrow' /><a href='" + xhrTwo.response.url + "' class='article-name' id=" + xhr.response[j] + ">" + xhrTwo.response.title + "</a>"; 
-              document.getElementById('article' + j).innerHTML += "<p class='second-line'>" + xhrTwo.response.score + " points by " + "<a href='https://news.ycombinator.com/user?id=" + xhrTwo.response.by + "' class='second-line-link'>" + xhrTwo.response.by + "</a>" + time + " | hide | " + " <a href='https://news.ycombinator.com/item?id=" + xhr.response[j] + "' class='second-line-link'>" + xhrTwo.response.descendants + " comments</p>";  
+              document.getElementById('article' + j).innerHTML += "<span class='number'>" + number 
+                                                                    + ".</span><img src='https://news.ycombinator.com/grayarrow2x.gif' class='arrow' alt='Gray Arrow' /><a href='" 
+                                                                    + xhrTwo.response.url + "' class='article-name' id=" + xhr.response[j] + ">" + xhrTwo.response.title + "</a>"; 
+              document.getElementById('article' + j).innerHTML += "<p class='second-line'>" + xhrTwo.response.score + " points by " 
+                                                                    + "<a href='https://news.ycombinator.com/user?id=" + xhrTwo.response.by 
+                                                                    + "' class='second-line-link'>" + xhrTwo.response.by + "</a>" + time 
+                                                                    + "<a href='https://news.ycombinator.com/hide?id=" + xhr.response[j] + "&goto=news' class='second-line-link'>" + " | hide | " + "</a>" + " <a href='https://news.ycombinator.com/item?id=" 
+                                                                    + xhr.response[j] + "' class='second-line-link'>" + xhrTwo.response.descendants 
+                                                                    + " comments</p>";  
             }   
           }; 
 
