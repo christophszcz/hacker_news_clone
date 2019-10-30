@@ -1,12 +1,13 @@
-== Hacker News Clone 
+== Hacker News Clone
 
 This is a replica of the popular Hacker News website built using Zurb Foundation, CSS, vanilla JavaScript and of course Ruby on Rails. The app is connected to the Hackernews API and displays the top 60 news stories. It is running Rails 4.2.4 (Ruby 2.2.0p0).
 
 {See it live}[https://christophszcz-hacker-news.herokuapp.com/]
 
 https://media.giphy.com/media/4affP3bPnNVuRzlm9B/giphy.gif
+rdoc-image:public/hacker_news_clone_screenshot.png
 
 1. <tt>$ git clone git@github.com:christophszcz/hacker_news_clone.git</tt>
-2. <tt>$ cd hacker_news_clone</tt> 
-3. <tt>$ bundle</tt> 
+2. <tt>$ cd hacker_news_clone</tt>
+3. <tt>$ bundle</tt>
 4. Enjoy! :)
