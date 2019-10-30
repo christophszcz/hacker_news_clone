@@ -8,7 +8,7 @@
 	max-width: 72rem;
 }
 
-// Navbar 
+// Navbar
 
 .main-logo{
 	border-top: 1px solid #fff;
@@ -54,19 +54,18 @@
 .top-bar{
 	margin-top: 7px;
 	background-color: rgb(255, 102, 0);
-	height: 20px;
+  height: 20px;
+  overflow: hidden;
 }
 
 #navbar-login{
 	margin-right: 5px;
 }
 
-// Content 
+// Content
 
 .content{
 	background-color: rgb(246, 247, 238);
-	padding-top: 5px;
-	margin-top: -25px;
 }
 
 .article{
