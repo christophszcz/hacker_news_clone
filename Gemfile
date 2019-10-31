@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
 
-gem 'nokogiri', '1.6'
+gem 'nokogiri', '1.10.4'
 
 # Use PostgreSQL as the database for Active Record
 gem 'pg', '~> 0.20'
