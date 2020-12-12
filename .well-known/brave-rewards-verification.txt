@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: christophszcz-hacker-news.herokuapp.com
+Token: b8f462e9e6945ea420cb68a61557eddab30cdc022a29cd187ac14e0e0e7016dd
